@@ -8,12 +8,12 @@ public class Endora extends JavaPlugin
 	@Override
 	public void onEnable() 
 	{
-		Bukkit.getConsoleSender().sendMessage("§aEndora Enabled");
+		Bukkit.getConsoleSender().sendMessage("§aEndora Enabled Successfully");
 	}
 	
 	@Override
 	public void onDisable() 
 	{
-		
+		Bukkit.getConsoleSender().sendMessage("§4Endora Disabled Successfully");
 	}
 }
